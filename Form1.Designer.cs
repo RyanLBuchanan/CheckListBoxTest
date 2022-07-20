@@ -30,21 +30,21 @@ namespace CheckListBoxTest
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Original ");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("The Next Generation");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Voyager");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Deep Space Nine");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Enterprise");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Discovery");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Strange New Worlds");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Star Trek", new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2,
-            treeNode3,
-            treeNode4,
-            treeNode5,
-            treeNode6,
-            treeNode7});
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Original ");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("The Next Generation");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Voyager");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Deep Space Nine");
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Enterprise");
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Discovery");
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Strange New Worlds");
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Star Trek", new System.Windows.Forms.TreeNode[] {
+            treeNode9,
+            treeNode10,
+            treeNode11,
+            treeNode12,
+            treeNode13,
+            treeNode14,
+            treeNode15});
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.displaylistBox = new System.Windows.Forms.ListBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
@@ -88,7 +88,7 @@ namespace CheckListBoxTest
             // 
             // addButton
             // 
-            this.addButton.Location = new System.Drawing.Point(589, 64);
+            this.addButton.Location = new System.Drawing.Point(589, 53);
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(199, 24);
             this.addButton.TabIndex = 2;
@@ -99,7 +99,7 @@ namespace CheckListBoxTest
             // 
             // removeButton
             // 
-            this.removeButton.Location = new System.Drawing.Point(589, 94);
+            this.removeButton.Location = new System.Drawing.Point(589, 83);
             this.removeButton.Name = "removeButton";
             this.removeButton.Size = new System.Drawing.Size(199, 24);
             this.removeButton.TabIndex = 4;
@@ -110,7 +110,7 @@ namespace CheckListBoxTest
             // 
             // clearButton
             // 
-            this.clearButton.Location = new System.Drawing.Point(589, 124);
+            this.clearButton.Location = new System.Drawing.Point(589, 113);
             this.clearButton.Name = "clearButton";
             this.clearButton.Size = new System.Drawing.Size(199, 24);
             this.clearButton.TabIndex = 5;
@@ -121,7 +121,7 @@ namespace CheckListBoxTest
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(589, 154);
+            this.exitButton.Location = new System.Drawing.Point(589, 143);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(199, 24);
             this.exitButton.TabIndex = 6;
@@ -141,25 +141,25 @@ namespace CheckListBoxTest
             // 
             this.treeView1.Location = new System.Drawing.Point(589, 185);
             this.treeView1.Name = "treeView1";
-            treeNode1.Name = "Original";
-            treeNode1.Text = "Original ";
-            treeNode2.Name = "TheNextGeneration";
-            treeNode2.Text = "The Next Generation";
-            treeNode3.Name = "Voyager";
-            treeNode3.Text = "Voyager";
-            treeNode4.Name = "DeepSpaceNine";
-            treeNode4.Text = "Deep Space Nine";
-            treeNode5.Name = "Enterprise";
-            treeNode5.Text = "Enterprise";
-            treeNode6.Name = "Discovery";
-            treeNode6.Text = "Discovery";
-            treeNode7.Name = "StrangeNewWorlds";
-            treeNode7.Text = "Strange New Worlds";
-            treeNode8.Name = "StarTrekNode";
-            treeNode8.Text = "Star Trek";
-            treeNode8.ToolTipText = "All Star Trek series fall below ";
+            treeNode9.Name = "Original";
+            treeNode9.Text = "Original ";
+            treeNode10.Name = "TheNextGeneration";
+            treeNode10.Text = "The Next Generation";
+            treeNode11.Name = "Voyager";
+            treeNode11.Text = "Voyager";
+            treeNode12.Name = "DeepSpaceNine";
+            treeNode12.Text = "Deep Space Nine";
+            treeNode13.Name = "Enterprise";
+            treeNode13.Text = "Enterprise";
+            treeNode14.Name = "Discovery";
+            treeNode14.Text = "Discovery";
+            treeNode15.Name = "StrangeNewWorlds";
+            treeNode15.Text = "Strange New Worlds";
+            treeNode16.Name = "StarTrekNode";
+            treeNode16.Text = "Star Trek";
+            treeNode16.ToolTipText = "All Star Trek series fall below ";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode8});
+            treeNode16});
             this.treeView1.Size = new System.Drawing.Size(199, 248);
             this.treeView1.TabIndex = 7;
             // 
